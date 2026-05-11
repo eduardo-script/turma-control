@@ -17,4 +17,4 @@ function telaCadastrarNotas() {
 }
 
 
-module.exports = { telaCadastrarNotas }  
+export = { telaCadastrarNotas }  
