@@ -14,8 +14,9 @@ function telaCadastro() {
 
 // responsavel em carregas os alunos cadastrados
 function telaListaAlunos() {
-  titulo("listar alunos")
+  titulo("LISTAR ALUNOS")
   listarAlunos()
+  tela.question("\nPressione Enter para voltar ao menu...")
 }
 // responsável de deixar a função publica
 export  = { telaCadastro, telaListaAlunos }
